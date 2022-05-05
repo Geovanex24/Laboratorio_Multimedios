@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px ){
+    .header{
+        flex-direction: column;
+    }
+
+    .nav--header{
+        padding: 100px 115px;
+    }
+
+    .nav--subnav{
+        text-align: center;
+    }
+
+    .section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie {
+        width: 80%;
+    }
+}

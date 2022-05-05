@@ -1,0 +1,37 @@
+.section {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie {
+    width: 23%;
+    margin-bottom: 40px;
+    padding: 8px;
+    background: $primary-color;
+    color: $secondary-color;
+    border: 2px solid $fourth-color;
+}
+
+.movieimage {
+    width: 100%;
+    margin-bottom: 10px;
+    &__img {
+        width: 100%;
+        border: 1px solid $fourth-color;
+    }
+}
+
+.moviedescription__text--rrp {
+    color: $fifth-color;
+}
+
+.moviedescription__text--price {
+    font-weight: 800; 
+}
+
+.moviedescription__text--saving {
+    color: $sixth-color;
+}
